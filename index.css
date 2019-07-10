@@ -1,0 +1,90 @@
+body {
+    background-color: indianred;
+    margin: 0;
+    padding: 0;
+    font-family: 'Literata', serif;
+}
+nav {
+    background-color: goldenrod;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: darkblue;
+}
+header {
+    padding-top: 38px;
+    background-image: url("https://s3.amazonaws.com/cms.ipressroom.com/173/files/20173/59012de32cfac22d7c06f8cf_Los+Angeles+skyline/Los+Angeles+skyline_db2b3f31-5d7d-4cf8-9ee8-7041fc4a3dce-prv.jpg");
+}
+.slide {
+    height: 75vh;
+    background-color: rgb(119, 177, 252);
+    border: 1px solid goldenrod;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+#about {
+    align-items: center;
+    justify-content: center;
+}
+#blog {
+    align-items: center;
+    justify-content: center;
+}
+#contact {
+    align-items: center;
+    justify-content: center;
+}
+#my-profile-pic {
+    background-image: url("https://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/lg/public/2017/07/02/image-642455958.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+    background-repeat: no-repeat;
+}
+#my-profile-details {
+    width: 55%;
+    height: 100%;
+    padding: 10px;
+}
+/* #contact {
+    display: block;
+} */
+.post-wrapper {
+    width: 100%;
+    background-color: rgb(252, 189, 177);
+    border: 2px dotted indianred;
+    overflow-y: scroll;
+}
+#blog {
+    flex-direction: column;
+}
+.date {
+    float: right;
+    font-style: italic;
+    font-weight: 400;
+}
+.info-list {
+    font-size: 25px;
+    width: 55%;
+}
+h1 {
+    font-size: 40px;
+}
+.contact-info-pic {
+    background-image: url("https://www.freepngimg.com/thumb/telephone/4-2-telephone-png-pic.png");
+    background-size: cover;
+    width: 45%;
+    height: 100%;
+}
+/*  
+h2 {
+    background-color:goldenrod;
+}
