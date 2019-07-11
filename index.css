@@ -21,7 +21,7 @@ header {
     background-image: url("https://s3.amazonaws.com/cms.ipressroom.com/173/files/20173/59012de32cfac22d7c06f8cf_Los+Angeles+skyline/Los+Angeles+skyline_db2b3f31-5d7d-4cf8-9ee8-7041fc4a3dce-prv.jpg");
 }
 .slide {
-    height: 75vh;
+    height: 100vh;
     background-color: rgb(119, 177, 252);
     border: 1px solid goldenrod;
     margin-left: 5px;
@@ -29,30 +29,36 @@ header {
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #about {
     align-items: center;
     justify-content: center;
+    padding: 15px 10px;
 }
 #blog {
     align-items: center;
     justify-content: center;
+    padding: 15px 10px;
 }
 #contact {
     align-items: center;
     justify-content: center;
+    padding: 15px 10px;
 }
 #my-profile-pic {
     background-image: url("https://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/lg/public/2017/07/02/image-642455958.jpg");
     background-size: cover;
     height: 100%;
-    width: 45%;
+    width: 50%;
     background-repeat: no-repeat;
+    background-position: right;
 }
 #my-profile-details {
-    width: 55%;
+    width: 50%;
     height: 100%;
     padding: 10px;
+    font-size: 30px;
 }
 /* #contact {
     display: block;
@@ -72,8 +78,8 @@ header {
     font-weight: 400;
 }
 .info-list {
-    font-size: 25px;
-    width: 55%;
+    font-size: 30px;
+    width: 50%;
 }
 h1 {
     font-size: 40px;
@@ -81,8 +87,30 @@ h1 {
 .contact-info-pic {
     background-image: url("https://www.freepngimg.com/thumb/telephone/4-2-telephone-png-pic.png");
     background-size: cover;
-    width: 45%;
-    height: 100%;
+    width: 50%;
+    height: 85vh;
+}
+header h1 {
+    background-color: rgba(250, 239, 191, 0.5);
+    color: darkblue;
+}
+#car-screenshot {
+    height: 150px;
+    width: 300px;
+}
+.summer-discover-pic {
+    background-image: url("https://teenlife.s3.amazonaws.com/media/uploads/listings/cv3Sdzmxqwed.jpg");
+    width: 320px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#code-screenshot {
+    height: 200px;
+    width: 100px;
+}
+.blog-content {
+    font-size: 25px;
 }
 /*  
 h2 {
