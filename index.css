@@ -16,6 +16,9 @@ nav a {
     font-size: 1.5em;
     color: darkblue;
 }
+nav a:hover {
+    color: indianred;
+}
 header {
     padding-top: 38px;
     background-image: url("https://s3.amazonaws.com/cms.ipressroom.com/173/files/20173/59012de32cfac22d7c06f8cf_Los+Angeles+skyline/Los+Angeles+skyline_db2b3f31-5d7d-4cf8-9ee8-7041fc4a3dce-prv.jpg");
