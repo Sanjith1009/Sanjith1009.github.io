@@ -38,22 +38,25 @@ header {
     align-items: center;
     justify-content: center;
     padding: 15px 10px;
+    height: auto;
 }
 #blog {
     align-items: center;
     justify-content: center;
     padding: 15px 10px;
+    height: auto;
 }
 #contact {
     align-items: center;
     justify-content: center;
     padding: 15px 10px;
+    height: auto;
 }
 #my-profile-pic {
     background-image: url("https://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/lg/public/2017/07/02/image-642455958.jpg");
     background-size: cover;
-    height: 100%;
-    width: 50%;
+    height: 600px;
+    width: 600px;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -70,7 +73,6 @@ header {
     width: 100%;
     background-color: rgb(252, 189, 177);
     border: 2px dotted indianred;
-    overflow-y: scroll;
 }
 #blog {
     flex-direction: column;
@@ -113,6 +115,12 @@ header h1 {
     width: 100px;
 }
 .blog-content {
+    font-size: 25px;
+}
+html {
+    scroll-behavior: smooth;
+}
+h3 {
     font-size: 25px;
 }
 /*  
